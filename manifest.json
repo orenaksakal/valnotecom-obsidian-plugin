@@ -1,0 +1,11 @@
+{
+	"id": "valnote-calculator",
+	"name": "Valnote Calculator",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Natural language calculator with unit conversions, currencies, dates, and more.",
+	"author": "Valnote",
+	"authorUrl": "https://www.valnote.com",
+	"fundingUrl":"https://buy.stripe.com/cNieVcbHq2fF8eW0xF8Ra01",
+	"isDesktopOnly": false
+}

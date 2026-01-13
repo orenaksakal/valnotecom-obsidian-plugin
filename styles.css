@@ -1,0 +1,65 @@
+/* Valnote Calculator Plugin Styles */
+
+.valnote-block {
+	font-family: var(--font-monospace);
+	font-size: var(--font-text-size);
+	padding: 12px 16px;
+	background: var(--background-secondary);
+	border-radius: 6px;
+	overflow-x: auto;
+}
+
+.valnote-line {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	min-height: 1.6em;
+	padding: 2px 0;
+	gap: 24px;
+}
+
+.valnote-line.valnote-empty {
+	min-height: 0.8em;
+}
+
+.valnote-input {
+	color: var(--text-normal);
+	flex: 1;
+	white-space: pre;
+}
+
+.valnote-line.valnote-comment .valnote-input {
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.valnote-result {
+	color: var(--text-accent);
+	font-weight: 500;
+	text-align: right;
+	flex-shrink: 0;
+	opacity: 0.9;
+}
+
+.valnote-error {
+	color: var(--text-error);
+	font-size: 0.85em;
+	opacity: 0.8;
+}
+
+/* Dark theme adjustments */
+.theme-dark .valnote-block {
+	background: var(--background-secondary-alt);
+}
+
+.theme-dark .valnote-result {
+	color: var(--interactive-accent);
+}
+
+/* Hover effect for lines with results */
+.valnote-line:has(.valnote-result):hover {
+	background: var(--background-modifier-hover);
+	border-radius: 4px;
+	margin: 0 -8px;
+	padding: 2px 8px;
+}
