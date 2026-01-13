@@ -2,6 +2,10 @@
 
 A natural language calculator plugin for Obsidian that supports:
 
+
+
+https://github.com/user-attachments/assets/647025fe-8226-4511-ba72-4d780da94787
+
 - ✨ Basic and advanced math
 - 💱 Currency conversions (100+ currencies)
 - 📏 Unit conversions (length, weight, volume, etc.)
